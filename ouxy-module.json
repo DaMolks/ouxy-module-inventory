@@ -1,1 +1,7 @@
-ewogICAgIm5hbWUiOiAiSW52ZW50YWlyZSIsCiAgICAiZGVzY3JpcHRpb24iOiAiTW9kdWxlIGRlIGdlc3Rpb24gZCdpbnZlbnRhaXJlIHBvdXIgT3V4eSIsCiAgICAidmVyc2lvbiI6ICIxLjAuMCIsCiAgICAibWluQXBwVmVyc2lvbiI6ICIxLjAuMCIsCiAgICAic2NyZWVuc2hvdHMiOiBbXQp9
+{
+    "name": "Inventaire",
+    "description": "Module de gestion d'inventaire pour Ouxy",
+    "version": "1.0.0",
+    "minAppVersion": "1.0.0",
+    "screenshots": []
+}
