@@ -1,10 +1,31 @@
-    \"name\": \"Inventaire\",
-    \"description\": \"Module de gestion d'inventaire pour Ouxy. Permet de gérer les stocks de matériels et pièces détachées.\",
-    \"version\": \"1.0.0\",
-    \"minAppVersion\": \"1.0.0\",
-    \"screenshots\": [],
-    \"author\": \"DaMolks\",
-    \"dependencies\": [],
-    \"permissions\": [
-        \"storage\"
-    ]
+{
+    "name": "Inventaire Module",
+    "description": "Module de gestion des stocks et inventaires pour Ouxy",
+    "version": "1.0.0",
+    "minAppVersion": "1.0.0",
+    "author": "DaMolks",
+    "screenshots": [
+        "https://example.com/screenshot1.png",
+        "https://example.com/screenshot2.png"
+    ],
+    "features": [
+        "Gestion des stocks",
+        "Suivi des entrées/sorties",
+        "Rapport d'inventaire"
+    ],
+    "requiredPermissions": [
+        "CAMERA",
+        "STORAGE_READ",
+        "STORAGE_WRITE"
+    ],
+    "dependencies": [
+        "core-module@1.0.0"
+    ],
+    "configuration": {
+        "dataModel": "inventory",
+        "defaultSettings": {
+            "syncInterval": 3600,
+            "autoBackup": true
+        }
+    }
+}
