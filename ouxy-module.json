@@ -1,0 +1,10 @@
+    \"name\": \"Inventaire\",
+    \"description\": \"Module de gestion d'inventaire pour Ouxy. Permet de gérer les stocks de matériels et pièces détachées.\",
+    \"version\": \"1.0.0\",
+    \"minAppVersion\": \"1.0.0\",
+    \"screenshots\": [],
+    \"author\": \"DaMolks\",
+    \"dependencies\": [],
+    \"permissions\": [
+        \"storage\"
+    ]
