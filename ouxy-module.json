@@ -1,7 +1,14 @@
 {
-    "name": "Inventaire",
-    "description": "Module de gestion d'inventaire pour Ouxy",
+    "id": "ouxy-module-notes",
+    "name": "Notes",
+    "description": "Module de prise de notes avec support des tags",
     "version": "1.0.0",
     "minAppVersion": "1.0.0",
-    "screenshots": []
+    "author": "DaMolks",
+    "entry": "com.damolks.ouxy.modules.notes.NotesModule",
+    "jarPath": "releases/notes-module.jar",
+    "permissions": [
+        "STORAGE"
+    ],
+    "dependencies": {}
 }
